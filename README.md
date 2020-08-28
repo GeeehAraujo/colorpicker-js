@@ -1,2 +1,3 @@
 # colorpiccker-js
- Personal project made in order to test basic knowledge in javascript
+ A color picker that shows the RGB and hex value of the generated color.
+ 
