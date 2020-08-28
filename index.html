@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <header class="tittle">
+            <h1>
+              R G B
+            </h1>
+            <h2>Color Picker</h2>
+          </header>
+        <div class="picker">
+            <font color="red">Red</font><input type="range" min="0" max="255" step="1" id="red">
+            <font color="green">Green</font><input type="range" min="0" max="255" step="1" id="green">
+            <font color="blue">Blue</font><input type="range" min="0" max="255" step="1" id="blue">
+        </div>
+        <div id="display"></div>
+        <div class="colors">
+            <h3>Hex: <span class='hex'>#828282</span></h3>
+            <h3>RGB: <span class='rgb'>(130,130,130)</span></h3>
+          </div>
+
+          <script src="./script.js"></script>
+
+    </body>
+</html>

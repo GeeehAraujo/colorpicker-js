@@ -1,0 +1,45 @@
+body{
+	font-family: Helvetica;
+	border-width: medium;
+	border-style: solid;
+	padding: 60px 30px;
+  	border-radius: 10px;
+	border-color: #be1b5fd8;
+}
+
+.tittle {
+    text-align: center;
+    font-family: Helvetica;
+    color:#be1b5fd8 ;
+}
+
+.picker{
+	position: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 300px;
+	height: 150px;
+}
+
+#display{
+	width: 23%;
+	height: 70px;
+  	margin: 15px auto;
+	background: #828282;
+	transition: background 100ms;
+    border: 2px solid #000;
+}
+
+h3{
+	color:#be1b5fd8;
+	text-align: center;
+    font-family: Helvetica;
+}
+
+input{
+    display: block;
+    width: 100%;
+}
